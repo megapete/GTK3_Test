@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		D35FEA3E26166D5B00AF041D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D35FEA3D26166D5B00AF041D /* main.c */; };
+		D3B8EF4026168A3B00F61313 /* libgtk-3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B8EF3F26168A3B00F61313 /* libgtk-3.dylib */; };
+		D3B8EF4226168A4900F61313 /* libpangocairo-1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B8EF4126168A4900F61313 /* libpangocairo-1.0.dylib */; };
+		D3B8EF4426168A5800F61313 /* libgdk-3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B8EF4326168A5800F61313 /* libgdk-3.dylib */; };
+		D3B8EF4626168A6A00F61313 /* libpango-1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B8EF4526168A6A00F61313 /* libpango-1.0.dylib */; };
+		D3B8EF4826168A7A00F61313 /* libharfbuzz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B8EF4726168A7A00F61313 /* libharfbuzz.dylib */; };
+		D3B8EF4A26168A8700F61313 /* libatk-1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B8EF4926168A8700F61313 /* libatk-1.0.dylib */; };
+		D3B8EF4C26168A9F00F61313 /* libcairo-gobject.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B8EF4B26168A9F00F61313 /* libcairo-gobject.dylib */; };
+		D3B8EF4E26168AAA00F61313 /* libcairo.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B8EF4D26168AAA00F61313 /* libcairo.dylib */; };
+		D3B8EF5026168AB600F61313 /* libgdk_pixbuf-2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B8EF4F26168AB600F61313 /* libgdk_pixbuf-2.0.dylib */; };
+		D3B8EF5226168AC900F61313 /* libgio-2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B8EF5126168AC900F61313 /* libgio-2.0.dylib */; };
+		D3B8EF5426168AD300F61313 /* libgobject-2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B8EF5326168AD300F61313 /* libgobject-2.0.dylib */; };
+		D3B8EF5626168ADC00F61313 /* libglib-2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B8EF5526168ADC00F61313 /* libglib-2.0.dylib */; };
+		D3B8EF5826168AE800F61313 /* libintl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B8EF5726168AE800F61313 /* libintl.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +36,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D3364F0B26168F63005F9E4E /* GTK3_Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GTK3_Test.entitlements; sourceTree = "<group>"; };
 		D35FEA3A26166D5B00AF041D /* GTK3_Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GTK3_Test; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35FEA3D26166D5B00AF041D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D3B8EF3D261689DE00F61313 /* libgtk-3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgtk-3.0.dylib"; path = "../../../gtk/inst/lib/libgtk-3.0.dylib"; sourceTree = "<group>"; };
+		D3B8EF3F26168A3B00F61313 /* libgtk-3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgtk-3.dylib"; path = "../../../gtk/inst/lib/libgtk-3.dylib"; sourceTree = "<group>"; };
+		D3B8EF4126168A4900F61313 /* libpangocairo-1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpangocairo-1.0.dylib"; path = "../../../gtk/inst/lib/libpangocairo-1.0.dylib"; sourceTree = "<group>"; };
+		D3B8EF4326168A5800F61313 /* libgdk-3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgdk-3.dylib"; path = "../../../gtk/inst/lib/libgdk-3.dylib"; sourceTree = "<group>"; };
+		D3B8EF4526168A6A00F61313 /* libpango-1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpango-1.0.dylib"; path = "../../../gtk/inst/lib/libpango-1.0.dylib"; sourceTree = "<group>"; };
+		D3B8EF4726168A7A00F61313 /* libharfbuzz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libharfbuzz.dylib; path = ../../../gtk/inst/lib/libharfbuzz.dylib; sourceTree = "<group>"; };
+		D3B8EF4926168A8700F61313 /* libatk-1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libatk-1.0.dylib"; path = "../../../gtk/inst/lib/libatk-1.0.dylib"; sourceTree = "<group>"; };
+		D3B8EF4B26168A9F00F61313 /* libcairo-gobject.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libcairo-gobject.dylib"; path = "../../../gtk/inst/lib/libcairo-gobject.dylib"; sourceTree = "<group>"; };
+		D3B8EF4D26168AAA00F61313 /* libcairo.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcairo.dylib; path = ../../../gtk/inst/lib/libcairo.dylib; sourceTree = "<group>"; };
+		D3B8EF4F26168AB600F61313 /* libgdk_pixbuf-2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgdk_pixbuf-2.0.dylib"; path = "../../../gtk/inst/lib/libgdk_pixbuf-2.0.dylib"; sourceTree = "<group>"; };
+		D3B8EF5126168AC900F61313 /* libgio-2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgio-2.0.dylib"; path = "../../../gtk/inst/lib/libgio-2.0.dylib"; sourceTree = "<group>"; };
+		D3B8EF5326168AD300F61313 /* libgobject-2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgobject-2.0.dylib"; path = "../../../gtk/inst/lib/libgobject-2.0.dylib"; sourceTree = "<group>"; };
+		D3B8EF5526168ADC00F61313 /* libglib-2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglib-2.0.dylib"; path = "../../../gtk/inst/lib/libglib-2.0.dylib"; sourceTree = "<group>"; };
+		D3B8EF5726168AE800F61313 /* libintl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.dylib; path = ../../../gtk/inst/lib/libintl.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +60,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B8EF4626168A6A00F61313 /* libpango-1.0.dylib in Frameworks */,
+				D3B8EF4026168A3B00F61313 /* libgtk-3.dylib in Frameworks */,
+				D3B8EF4A26168A8700F61313 /* libatk-1.0.dylib in Frameworks */,
+				D3B8EF4E26168AAA00F61313 /* libcairo.dylib in Frameworks */,
+				D3B8EF5626168ADC00F61313 /* libglib-2.0.dylib in Frameworks */,
+				D3B8EF4C26168A9F00F61313 /* libcairo-gobject.dylib in Frameworks */,
+				D3B8EF5226168AC900F61313 /* libgio-2.0.dylib in Frameworks */,
+				D3B8EF4826168A7A00F61313 /* libharfbuzz.dylib in Frameworks */,
+				D3B8EF5826168AE800F61313 /* libintl.dylib in Frameworks */,
+				D3B8EF5426168AD300F61313 /* libgobject-2.0.dylib in Frameworks */,
+				D3B8EF5026168AB600F61313 /* libgdk_pixbuf-2.0.dylib in Frameworks */,
+				D3B8EF4226168A4900F61313 /* libpangocairo-1.0.dylib in Frameworks */,
+				D3B8EF4426168A5800F61313 /* libgdk-3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +84,7 @@
 			children = (
 				D35FEA3C26166D5B00AF041D /* GTK3_Test */,
 				D35FEA3B26166D5B00AF041D /* Products */,
+				D3B8EF3C261689DE00F61313 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +99,31 @@
 		D35FEA3C26166D5B00AF041D /* GTK3_Test */ = {
 			isa = PBXGroup;
 			children = (
+				D3364F0B26168F63005F9E4E /* GTK3_Test.entitlements */,
 				D35FEA3D26166D5B00AF041D /* main.c */,
 			);
 			path = GTK3_Test;
+			sourceTree = "<group>";
+		};
+		D3B8EF3C261689DE00F61313 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3B8EF5726168AE800F61313 /* libintl.dylib */,
+				D3B8EF5526168ADC00F61313 /* libglib-2.0.dylib */,
+				D3B8EF5326168AD300F61313 /* libgobject-2.0.dylib */,
+				D3B8EF5126168AC900F61313 /* libgio-2.0.dylib */,
+				D3B8EF4F26168AB600F61313 /* libgdk_pixbuf-2.0.dylib */,
+				D3B8EF4D26168AAA00F61313 /* libcairo.dylib */,
+				D3B8EF4B26168A9F00F61313 /* libcairo-gobject.dylib */,
+				D3B8EF4926168A8700F61313 /* libatk-1.0.dylib */,
+				D3B8EF4726168A7A00F61313 /* libharfbuzz.dylib */,
+				D3B8EF4526168A6A00F61313 /* libpango-1.0.dylib */,
+				D3B8EF4326168A5800F61313 /* libgdk-3.dylib */,
+				D3B8EF4126168A4900F61313 /* libpangocairo-1.0.dylib */,
+				D3B8EF3F26168A3B00F61313 /* libgtk-3.dylib */,
+				D3B8EF3D261689DE00F61313 /* libgtk-3.0.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +206,7 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -176,6 +240,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/peterhub/gtk/inst/include/gtk-3.0",
+					"/Users/peterhub/gtk/inst/include/gio-unix-2.0",
+					/Users/peterhub/gtk/inst/include/cairo,
+					"/Users/peterhub/gtk/inst/include/pango-1.0",
+					/Users/peterhub/gtk/inst/include/fribidi,
+					"/Users/peterhub/gtk/inst/include/atk-1.0",
+					/Users/peterhub/gtk/inst/include/cairo,
+					"/Users/peterhub/gtk/inst/include/pixman-1",
+					/Users/peterhub/gtk/inst/include/freetype2,
+					/Users/peterhub/gtk/inst/include/harfbuzz,
+					/Users/peterhub/gtk/inst/include/libpng16,
+					"/Users/peterhub/gtk/inst/include/gdk-pixbuf-2.0",
+					"/Users/peterhub/gtk/inst/include/glib-2.0",
+					"/Users/peterhub/gtk/inst/lib/glib-2.0/include",
+				);
+				LIBRARY_SEARCH_PATHS = /Users/peterhub/gtk/inst/lib;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -201,7 +282,7 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -229,6 +310,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/peterhub/gtk/inst/include/gtk-3.0",
+					"/Users/peterhub/gtk/inst/include/gio-unix-2.0",
+					/Users/peterhub/gtk/inst/include/cairo,
+					"/Users/peterhub/gtk/inst/include/pango-1.0",
+					/Users/peterhub/gtk/inst/include/fribidi,
+					"/Users/peterhub/gtk/inst/include/atk-1.0",
+					/Users/peterhub/gtk/inst/include/cairo,
+					"/Users/peterhub/gtk/inst/include/pixman-1",
+					/Users/peterhub/gtk/inst/include/freetype2,
+					/Users/peterhub/gtk/inst/include/harfbuzz,
+					/Users/peterhub/gtk/inst/include/libpng16,
+					"/Users/peterhub/gtk/inst/include/gdk-pixbuf-2.0",
+					"/Users/peterhub/gtk/inst/include/glib-2.0",
+					"/Users/peterhub/gtk/inst/lib/glib-2.0/include",
+				);
+				LIBRARY_SEARCH_PATHS = /Users/peterhub/gtk/inst/lib;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -239,6 +337,7 @@
 		D35FEA4226166D5B00AF041D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = GTK3_Test/GTK3_Test.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R3HXUUS44;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -249,6 +348,7 @@
 		D35FEA4326166D5B00AF041D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = GTK3_Test/GTK3_Test.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R3HXUUS44;
 				ENABLE_HARDENED_RUNTIME = YES;
